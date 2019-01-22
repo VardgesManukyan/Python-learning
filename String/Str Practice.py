@@ -16,6 +16,7 @@ print(a+v)
 # Expected Result : 'resta$t'
 
 s="restart"
+a=s[0]
 s=a+s[1:].replace("r","$")
 print(s)
 
@@ -28,8 +29,8 @@ print(s)
 
 s="qyal"
 g="mard"
-a=s[:2]+g[-2:]
-b=g[:2]+s[-2:]
+a=s[:2]+g[2:]
+b=g[:2]+s[2:]
 print(a+  " "  +b)
 
 # 4.
